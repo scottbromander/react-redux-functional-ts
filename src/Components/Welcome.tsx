@@ -30,6 +30,7 @@ export function Welcome({
         <p>{position}</p>
       )}
       <button onClick={onButtonClick}>Upvote: {upvote}</button>
+      {children}
     </div>
   );
 }

@@ -17,7 +17,16 @@ function App() {
         location="Kansas City"
       />
 
-      <Welcome name="Jackson Bromander" position="Evangelist" />
+      <Welcome
+        name="Jackson Bromander"
+        position="Evangelist"
+        children={
+          <div>
+            <h5>Snack Master</h5>
+            <p>Jackson is a snack connoisseur. He currently likes Cheetos.</p>
+          </div>
+        }
+      />
 
       {/* NOTE THAT THIS LINE ERRORS WITH THE SPECIFIC ARGUMENTS ('props') THAT ARE MISSING */}
       {/* <Welcome /> */}
